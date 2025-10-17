@@ -1,0 +1,19 @@
+/* Remove default spacing */
+* {
+    margin: 0;
+    padding: 0;
+}
+
+/* Prevent scrolling */
+html,
+body {
+    overflow: hidden;
+}
+
+/* Fix canvas to the screen */
+.webgl {
+    position: fixed;
+    top: 0;
+    left: 0;
+    outline: none;
+}
